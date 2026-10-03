@@ -1,0 +1,53 @@
+# Superintelligent Sales OS: user context
+#
+# Every skill in the OS reads this file before it does anything. Without it,
+# skills produce generic output. Run the Customization Onboarding skill
+# (rep/_onboarding/) to fill it in through guided questions, or edit it by hand.
+#
+# Template from docs/CODEX_BUILD_HANDOFF.md, section 10. Keep the keys; replace
+# every placeholder value. Lists may be as long as you need.
+
+company:
+  name: "Your Company"
+  products: []
+  value_propositions: []
+  competitors: []
+
+icp:
+  primary_segments: []
+  buyer_personas: []
+  decision_committee_patterns: []
+  typical_pain_points: []
+  excluded_segments: []
+
+methodology:
+  qualification: "SPICED"  # or MEDDPICC, BANT, custom
+  custom_methodology_file: null  # path to your own methodology file if custom
+
+sales_process:
+  stages: []
+  average_cycle_days: 90
+  stage_definitions: {}
+
+financial:
+  acv_range: "30000-100000"
+  pricing_model: "annual_subscription"
+  discount_authority_levels: {}
+  standard_contract_path: "/context/standard-agreement.md"
+
+cs_handoff:
+  required_fields: []
+  intake_format: ""
+  cs_team_owner: ""
+
+manager:
+  team_size: 8
+  team_segments: {}
+  cadence: {}
+  coaching: {}
+  forecasting: {}
+  call_analysis: {}
+
+voice:
+  tone: "professional, direct, results-focused"
+  voice_filter_skill: null  # name of a voice skill to apply to written output, if you have one
