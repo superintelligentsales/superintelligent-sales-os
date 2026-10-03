@@ -391,7 +391,7 @@ Each skill reads from a customization context file (`/context/user-context.yaml`
 
 Repository: [github.com/superintelligentsales/superintelligent-sales-os](https://github.com/superintelligentsales/superintelligent-sales-os)
 
-For organizations that want a turn-key engagement rather than a self-serve install, the Dana Sales Diagnostic is a $5K, three-week engagement that runs this methodology against your actual call data and funnel metrics, producing a defensible diagnosis and a prioritized action plan. Contact: victor@dana-consulting.com.
+For organizations that want a turn-key engagement rather than a self-serve install, the Dana Sales Diagnostic is a three-week engagement that runs this methodology against your actual call data and funnel metrics, producing a defensible diagnosis and a prioritized action plan. Contact: victor@dana-consulting.com.
 
 ---
 
