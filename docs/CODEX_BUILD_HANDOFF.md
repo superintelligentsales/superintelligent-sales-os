@@ -289,7 +289,39 @@ Links to /methodology/ files this suite draws from.
 
 Other suites or skills this suite composes with (especially relevant
 for Operating Rhythm Suite which orchestrates other suites).
+
+## Related Skills to Suggest
+
+For each sub-skill in this Suite, the one next skill Claude may suggest
+after it runs, and the trigger phrase the user would say to run it.
+Draw candidates from this Suite and from other Suites in the catalog.
+
+| After this sub-skill runs | Suggest | Trigger phrase |
+|---|---|---|
+| {sub-skill} | {next skill, within or across Suites} | "{phrase}" |
+
+Suggestion rules (apply in every sub-skill's output):
+- Suggest only when there is a genuine, specific reason from this run.
+- One suggestion per run. Never a menu.
+- Saying nothing is acceptable.
+- Never suggest a skill already run earlier in the same conversation.
+
+## Operating Principles
+
+Three to five short principles that govern every output in this Suite.
+Each sub-skill applies these when it writes its output. Excerpt them from
+dana-sales-management-brief-v2.md and the Foundational Principles in
+superintelligent-sales-os-overview.md; do not invent new ones. Choose the
+principles that fit this Suite. Candidates:
+
+- **Beneath metrics are behaviors.** Coach the activities and skills that produce the number, never the number itself.
+- **Diagnose in groups, treat in 1:1s.** Never solve one rep's problem in a team setting.
+- **Verified, not vibes.** Every claim cites a quote, timestamp, or record. If it can't be verified, it's a vibe: drop the section rather than pad it.
+- **The manager is the highest-leverage role and the most under-supported.** Outputs should give managers time back, not add work.
+- **Customization is the moat, not the methodology.** Apply the user's /context/ values; never fall back to generic advice when context exists.
 ```
+
+The Operating Principles section lives at the Suite level only. Do not repeat it inside individual SKILL.md files.
 
 ---
 
@@ -322,11 +354,15 @@ context_required:
 3. **When to Use** — bullet list of trigger scenarios
 4. **Inputs** — table: Input | Required | Description
 5. **Outputs** — table: File | Format | Purpose
-6. **Methodology / Framework** — the structured approach. This is where depth lives.
-7. **Customization** — explicit section explaining what the user must provide in `/context/` for this skill to perform well
-8. **Output Format** — precise structure of the deliverable
-9. **Examples** — at minimum one gold-standard input/output pair
-10. **Related Skills** — composition references (which skills this calls or is called by)
+6. **Tool Discovery** — placed before the methodology. Tells Claude to check which tools and data sources it can reach before asking the user for anything, and lists them in priority order:
+   - **Core sources:** CRM, call recordings and transcripts, email, calendar.
+   - **Often-overlooked sources:** team chat, contracts, shared documents, quoting or proposal tools.
+   - **Rule:** Pull real context wherever it exists. Do not ask the user to find information the skill can look up itself. If a needed source is not connected, say which one and continue with what is available.
+7. **Methodology / Framework** — the structured approach. This is where depth lives.
+8. **Customization** — explicit section explaining what the user must provide in `/context/` for this skill to perform well
+9. **Output Format** — precise structure of the deliverable
+10. **Examples** — at minimum one gold-standard input/output pair
+11. **Related Skills** — composition references (which skills this calls or is called by)
 
 ### Length and depth target
 
@@ -515,7 +551,7 @@ voice:
 - **CRM-first architecture.** Skills touching deal data note CRM sync requirements.
 - **Day-agnostic naming.** No Monday/Friday/Tuesday hardcoded references.
 - **Methodology grounding.** Every skill references methodology files in frontmatter.
-- **Evidence over inference.** Analytical skills cite specific evidence (timestamps, quotes), not inferred reasoning.
+- **Verified, not vibes.** Analytical skills cite specific evidence (timestamps, quotes, records), not inferred reasoning.
 - **Customization-first.** Every skill reads from `/context/`.
 - **Collaborative build.** Codex never invents skill content from thin context — always ask Victor for source materials.
 
@@ -599,7 +635,7 @@ voice:
 
 Each PR must pass these gates before Victor merges:
 
-1. **PTCF+E + Required Sections compliance.** All sections from §7 present.
+1. **PTCF+E + Required Sections compliance.** All sections from §7 present, including Tool Discovery.
 2. **Methodology grounding.** Skill references at least one methodology file in frontmatter.
 3. **Customization layer.** Skill explicitly reads from `/context/` and has a Customization section.
 4. **Day-agnostic.** No hardcoded day references in cadence skills.
