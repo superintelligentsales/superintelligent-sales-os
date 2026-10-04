@@ -316,7 +316,7 @@ principles that fit this Suite. Candidates:
 
 - **Beneath metrics are behaviors.** Coach the activities and skills that produce the number, never the number itself.
 - **Diagnose in groups, treat in 1:1s.** Never solve one rep's problem in a team setting.
-- **Evidence over inference.** Every claim cites a quote, timestamp, or record. If the evidence is missing, drop the section rather than pad it.
+- **Verified, not vibes.** Every claim cites a quote, timestamp, or record. If it can't be verified, it's a vibe: drop the section rather than pad it.
 - **The manager is the highest-leverage role and the most under-supported.** Outputs should give managers time back, not add work.
 - **Customization is the moat, not the methodology.** Apply the user's /context/ values; never fall back to generic advice when context exists.
 ```
@@ -551,7 +551,7 @@ voice:
 - **CRM-first architecture.** Skills touching deal data note CRM sync requirements.
 - **Day-agnostic naming.** No Monday/Friday/Tuesday hardcoded references.
 - **Methodology grounding.** Every skill references methodology files in frontmatter.
-- **Evidence over inference.** Analytical skills cite specific evidence (timestamps, quotes), not inferred reasoning.
+- **Verified, not vibes.** Analytical skills cite specific evidence (timestamps, quotes, records), not inferred reasoning.
 - **Customization-first.** Every skill reads from `/context/`.
 - **Collaborative build.** Codex never invents skill content from thin context — always ask Victor for source materials.
 
