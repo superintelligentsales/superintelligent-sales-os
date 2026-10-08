@@ -1,6 +1,6 @@
 ---
 name: customization-onboarding
-description: Set up or refresh the Sales OS company, buyer, sales-process, voice and manager context through specific questions and approved source material. Use when installing the OS, configuring it for a company, or changing an existing context file.
+description: Configures Sales OS context through specific questions and approved sources. MUST run on first installation before any other Sales OS skill. SHOULD run when context is missing, incomplete or stale, including requests to "set up the OS", "onboard my company" or "refresh our sales context". Do NOT use for an isolated single-field edit or an unrelated sales task.
 license: MIT
 suite: cross-cutting
 methodology_refs: []
@@ -134,17 +134,23 @@ Do not make a named voice filter the default merely because Dana uses it. Apply 
 
 Return the reviewed YAML, or the saved private path when file access is available, followed by a concise setup receipt:
 
-1. **Status:** saved and read back, prepared but unsaved, or no changes.
-2. **Confirmed:** the facts that materially tailor the user's first task, with answer/source references.
-3. **Needs input:** unresolved fields, conflicts and inaccessible documents, grouped by intended use.
-4. **Readiness:** ready inputs versus missing inputs for the requested suite; schema completeness does not imply every suite is usable or installed.
-5. **Human finalization:** confirm accuracy, resolve strategic choices and review outputs before using them. This is the first 80%; the human supplies final judgment.
+1. **What I did:** state saved and read back, prepared but unsaved, or no changes. Summarize confirmed facts and their sources.
+2. **What remains:** list unresolved inputs, conflicts, inaccessible materials and readiness for the requested suite. Explain that this is the first 80%; the human confirms accuracy, settles strategic choices and reviews outputs before use.
+3. **Where to find results:** give the private saved path, or identify the complete YAML in this conversation when unsaved. Never imply a public upload occurred.
 
 At most one relevant next-skill suggestion may follow, subject to the rules below. The final line must be exactly:
 
 `[VICTOR: Diagnostic offer line wording]`
 
 This is an unresolved pre-release copy decision, not approved promotional wording. Do not invent a link or substitute an offer.
+
+### Error Handling
+
+- If an answer is skipped, preserve `[USER]` and continue; a blank answer is not evidence.
+- If sources contradict, ask once which is authoritative for the intended use. If unresolved, record both claims and provenance in the receipt and propose `[USER]` for the disputed field. Do not replace an existing confirmed value until the user approves that change.
+- If asked to scrape a website to invent ICP or personas, decline that shortcut and return to concrete examples from the user. The interview's friction is intentional: strategic judgment cannot be delegated to a guessed profile.
+- If existing fields need updates, present the old/new/source comparison and obtain confirmation before saving. Ask when uncertain; never overwrite without confirmation and never delete user files or data. Write only the reviewed context file in a confirmed private workspace.
+- If asked only to edit one field, do not launch the full onboarding interview. Handle that narrow request separately, preserving the same confirmation and privacy boundaries.
 
 ## Examples
 

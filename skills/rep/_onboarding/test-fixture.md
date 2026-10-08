@@ -159,18 +159,15 @@ tools:
 
 Expected receipt:
 
-- Status: saved and read back in the private working copy.
-- Confirmed: company/ICP and SPICED from answers 1–4; stages and CS handoff from answer 4; manager structure and cadence from answer 6.
-- Needs input: the skill rubric and current performance baseline before diagnosing a rep. Tool availability, source libraries, commercial inputs and benchmarks are unresolved. The buying trigger and voice examples remain in the receipt as supplied context.
-- Readiness: company and workflow context captured; Coaching is not ready for evidence-based diagnosis. Do not recommend a forecast based on absent conversion rates.
-- Human finalization: review the recorded facts and provide the rubric/baseline; review future outputs before acting. This is the first 80%, not final judgment.
-- No next-skill suggestion: none is installed in the fixture environment.
+- **What I did:** saved and read back in the private working copy. Company/ICP and SPICED trace to answers 1–4; stages and CS handoff to answer 4; manager structure and cadence to answer 6.
+- **What remains:** rubric and performance baseline are needed before diagnosing a rep. Tools, libraries, commercial inputs and benchmarks remain unresolved. The buying trigger and voice examples stay in this receipt. Coaching is not ready for diagnosis; no forecast follows from absent conversion data. The human confirms accuracy and reviews future outputs: this is the first 80%, not final judgment.
+- **Where to find results:** the private working copy's `context/user-context.yaml`, saved and read back. No next-skill suggestion: none is installed in this environment.
 
 [VICTOR: Diagnostic offer line wording]
 
 ## Quality Criteria
 
-- [ ] Required SKILL.md sections and frontmatter are present; body is within the build card's depth range.
+- [ ] Required SKILL.md sections and frontmatter are present; body is 1,500–3,500 words and fewer than 500 lines.
 - [ ] All six opening questions ask for operational detail, evidence or explicit unknowns.
 - [ ] Every customization item across all eleven suites maps to a field in the schema.
 - [ ] Every known value in the expected YAML traces to a supplied answer; no template examples silently become facts.
@@ -189,8 +186,8 @@ Expected receipt:
 | Individual seller | “I do not manage reps.” | `manager.enabled: false`; remaining manager schema retained as unanswered on a fresh setup; no manager interview or Manager-suite readiness claim |
 | Role unknown | Omit role answer | Enabled flag stays `[USER]`; ask one role question, not eight rep-detail questions |
 | Legacy sample file | Original repository template is present | Confirm whether sample method, cycle and team size are real; never accept example financial values as answers |
-| Existing context | Confirmed company and a custom `territory_rules` key exist; user changes voice only | Preserve every unrelated value and the extension key; preview only the voice change |
-| Conflicting process | CRM says MEDDPICC; current user says SPICED | Surface disagreement and confirm intended purpose; do not overwrite user's current choice with CRM metadata |
+| Existing context | Confirmed company and a custom `territory_rules` key exist; user changes voice only | Do not trigger full onboarding for an isolated field edit; handle the narrow edit separately, preview and confirm it, preserving unrelated values and the extension key |
+| Conflicting process | CRM says MEDDPICC; current user says SPICED | Ask once; if unresolved, record both claims with provenance in the receipt and propose [USER] for the disputed field; preserve any existing confirmed value until the user approves the change |
 | No source access | Named rubric path is unreadable | Preserve it as user-supplied, report access unverified, do not call rubric reviewed |
 | No file access | Read/write unavailable | Provide full YAML and label prepared, not saved; do not pretend completion |
 | Write fails | Filesystem refuses write | Preserve prepared YAML, report failure; do not claim successful readback |
