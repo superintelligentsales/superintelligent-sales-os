@@ -31,4 +31,4 @@ Onboarding preserves existing answers and custom keys, shows proposed changes an
 
 The template includes library paths for cases, features, demos, proposals, contracts, ROI inputs and handoff materials, plus `tools` for CRM, sequencing and forecast sources. The skill's coverage table maps every suite requirement. A placeholder makes a gap visible; it does not make that suite ready.
 
-The onboarding skill supports form exports, GPT conversations and live-conversation notes. Companion GPT and human-booking links are not configured in this release; onboarding works in the current conversation without them. The Diagnostic offer line remains a pre-merge wording decision for Victor.
+The onboarding skill supports form exports, GPT conversations and live-conversation notes. Companion GPT and human-booking links are not configured in this release; onboarding works in the current conversation without them.

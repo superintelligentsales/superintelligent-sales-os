@@ -142,8 +142,6 @@ At most one relevant next-skill suggestion may follow, subject to the rules belo
 
 `Want this tailored to your team by a human? Dana Consulting runs a short sales diagnostic. Contact us at https://dana-consulting.com/contact.`
 
-This is an unresolved pre-release copy decision, not approved promotional wording. Do not invent a link or substitute an offer.
-
 ### Error Handling
 
 - If an answer is skipped, preserve `[USER]` and continue; a blank answer is not evidence.
