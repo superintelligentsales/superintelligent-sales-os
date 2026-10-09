@@ -1,53 +1,105 @@
-# Superintelligent Sales OS: user context
-#
-# Every skill in the OS reads this file before it does anything. Without it,
-# skills produce generic output. Run the Customization Onboarding skill
-# (rep/_onboarding/) to fill it in through guided questions, or edit it by hand.
-#
-# Template from docs/CODEX_BUILD_HANDOFF.md, section 10. Keep the keys; replace
-# every placeholder value. Lists may be as long as you need.
-
+# Public template only. All unanswered values are quoted [USER] sentinels.
+# Populate in a private working copy; never commit real company context here.
+# A known mapping or number replaces its sentinel; do not treat placeholders as facts.
 company:
-  name: "Your Company"
-  products: []
-  value_propositions: []
-  competitors: []
-
+  name: '[USER]'
+  products:
+  - '[USER]'
+  value_propositions:
+  - '[USER]'
+  competitors:
+  - '[USER]'
+  case_study_library_path: '[USER]'
+  use_cases:
+  - '[USER]'
+  features_benefits_library_path: '[USER]'
+  competitive_differentiators:
+  - '[USER]'
+  demo_flow_path: '[USER]'
+  standard_talk_tracks_path: '[USER]'
 icp:
-  primary_segments: []
-  buyer_personas: []
-  decision_committee_patterns: []
-  typical_pain_points: []
-  excluded_segments: []
-
+  primary_segments:
+  - '[USER]'
+  buyer_personas:
+  - '[USER]'
+  decision_committee_patterns:
+  - '[USER]'
+  typical_pain_points:
+  - '[USER]'
+  excluded_segments:
+  - '[USER]'
 methodology:
-  qualification: "SPICED"  # or MEDDPICC, BANT, custom
-  custom_methodology_file: null  # path to your own methodology file if custom
-
+  qualification: '[USER]'
+  custom_methodology_file: '[USER]'
 sales_process:
-  stages: []
-  average_cycle_days: 90
-  stage_definitions: {}
-
+  stages:
+  - '[USER]'
+  average_cycle_days: '[USER]'
+  stage_definitions: '[USER]'
+  standard_meeting_templates_path: '[USER]'
+  se_engagement_playbook_path: '[USER]'
 financial:
-  acv_range: "30000-100000"
-  pricing_model: "annual_subscription"
-  discount_authority_levels: {}
-  standard_contract_path: "/context/standard-agreement.md"
-
+  acv_range: '[USER]'
+  pricing_model: '[USER]'
+  discount_authority_levels: '[USER]'
+  standard_contract_path: '[USER]'
+  roi_model_assumptions_path: '[USER]'
+  persona_value_drivers_path: '[USER]'
+  persona_financial_kpis_path: '[USER]'
+  standard_proposal_template_path: '[USER]'
+  concession_policy_path: '[USER]'
+  legal_review_process: '[USER]'
 cs_handoff:
-  required_fields: []
-  intake_format: ""
-  cs_team_owner: ""
-
+  required_fields:
+  - '[USER]'
+  intake_format: '[USER]'
+  cs_team_owner: '[USER]'
+  kickoff_meeting_format: '[USER]'
+  customer_onboarding_process_path: '[USER]'
 manager:
-  team_size: 8
-  team_segments: {}
-  cadence: {}
-  coaching: {}
-  forecasting: {}
-  call_analysis: {}
-
+  enabled: '[USER]'
+  team_size: '[USER]'
+  team_segments: '[USER]'
+  work_arrangement: '[USER]'
+  direct_reports:
+  - '[USER]'
+  tenure_with_team_months: '[USER]'
+  reporting_to: '[USER]'
+  top_challenges:
+  - '[USER]'
+  cadence:
+    team_meeting_frequency: '[USER]'
+    one_on_one_frequency: '[USER]'
+    deal_review_frequency: '[USER]'
+    skill_workshop_frequency: '[USER]'
+    forecast_review_frequency: '[USER]'
+  methodology_preference: '[USER]'
+  coaching:
+    skill_rubric_path: '[USER]'
+    development_plan_template_path: '[USER]'
+    coaching_philosophy: '[USER]'
+    tone: '[USER]'
+    performance_baseline_path: '[USER]'
+    current_practice: '[USER]'
+    priority_skill: '[USER]'
+    success_measure: '[USER]'
+  forecasting:
+    deal_stages:
+    - '[USER]'
+    stage_exit_criteria: '[USER]'
+    historical_conversion_rates: '[USER]'
+    pipeline_coverage_target: '[USER]'
+    quota_structure: '[USER]'
+  call_analysis:
+    call_recording_platform: '[USER]'
+    scoring_methodology: '[USER]'
+    coverage_target: '[USER]'
+    performance_benchmarks_path: '[USER]'
 voice:
-  tone: "professional, direct, results-focused"
-  voice_filter_skill: null  # name of a voice skill to apply to written output, if you have one
+  tone: '[USER]'
+  voice_filter_skill: '[USER]'
+tools:
+  crm: '[USER]'
+  sequencer: '[USER]'
+  forecast_data_sources:
+  - '[USER]'
