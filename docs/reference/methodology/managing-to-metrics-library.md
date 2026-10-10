@@ -28,7 +28,7 @@ Use the cards in two modes: **diagnostic** (a metric is off — drill down to ro
 
 **Definition.** The total number of opportunities in the rep's active pipeline.
 
-**What it means.** Even if average deal value is healthy, insufficient volume guarantees missed quota. 20% close rate × 3 deals = 0 closes. Volume is the foundation; everything else is leverage on top of it.
+**What it means.** With a 10% win probability and 10 independent comparable opportunities, the chance of at least one close is 1 − 0.9^10, approximately 65%; one expected close is not a guaranteed close. Volume is the foundation; everything else is leverage on top of it.
 
 **Diagnostic questions.** Is calendar time blocked for prospecting? Do they understand which accounts to target (ICP fit)? Are they hitting minimum dial and email activity? Are emails personalized or template-spray? Do they have an account plan?
 
@@ -40,7 +40,7 @@ Use the cards in two modes: **diagnostic** (a metric is off — drill down to ro
 
 **Definition.** The monetary value of the active pipeline in dollars.
 
-**What it means.** The right coverage ratio is Revenue Goal ÷ Close Rate. Two reps with identical pipeline volume can have wildly different value depending on deal-size discipline.
+**What it means.** Break-even coverage is 1 ÷ win rate; required pipeline value is remaining revenue goal ÷ win rate under compatible value assumptions. Break-even is expected-value coverage, not safety: an illustrative model of 100 independent equal-value opportunities at a 10% win probability gives about a 55% chance of reaching 10 wins; the probability depends on the deal distribution. Two reps with identical pipeline volume can have wildly different value depending on deal-size discipline.
 
 **Diagnostic questions.** What industries make up the pipeline? Are they targeting decision-makers or end users? Are they recommending the full product suite or a narrow piece? What's the outbound lead rating — A's and B's, or C's filling space?
 
@@ -250,4 +250,4 @@ Use the cards in two modes: **diagnostic** (a metric is off — drill down to ro
 
 ## Source attribution
 
-Synthesized from Data-Driven Coaching & Activity Metrics PDF (May 2025, Drive ID `1qS_CX3c5XA2yTaYEbdke654lcgX5bilc`) — the canonical metric library with diagnostic questions and coaching guidance — and from the Data-Driven Coaching WGLL deck (March 2024) where the TASK framework was first introduced. Authored by Victor Adefuye, 2024 — April 2026.
+Synthesized from Data-Driven Coaching & Activity Metrics PDF (May 2025) — the canonical metric library with diagnostic questions and coaching guidance — and from the Data-Driven Coaching WGLL deck (March 2024) where the TASK framework was first introduced. Authored by Victor Adefuye, 2024 — April 2026.
