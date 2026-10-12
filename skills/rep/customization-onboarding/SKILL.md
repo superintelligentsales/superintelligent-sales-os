@@ -1,10 +1,11 @@
 ---
 name: customization-onboarding
-description: Configures Sales OS context through specific questions and approved sources. MUST run on first installation before any other Sales OS skill. SHOULD run when context is missing, incomplete or stale, including requests to "set up the OS", "onboard my company" or "refresh our sales context". Do NOT use for an isolated single-field edit or an unrelated sales task.
+description: "Configures Sales OS context through specific questions and approved sources. MUST run on first installation before any other Sales OS skill. SHOULD run when context is missing, incomplete or stale, including requests to \"set up the OS\", \"onboard my company\" or \"refresh our sales context\". Do NOT use for an isolated single-field edit or an unrelated sales task."
 license: MIT
-suite: cross-cutting
-methodology_refs: []
-context_required: []
+metadata:
+  suite: "cross-cutting"
+  methodology_refs: "none"
+  context_required: "none"
 ---
 
 # Customization Onboarding

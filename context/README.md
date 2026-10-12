@@ -5,7 +5,7 @@ Every skill in the Superintelligent Sales OS reads `/context/user-context.yaml` 
 ## How to fill it in
 
 1. Install the OS.
-2. Run the Customization Onboarding skill ([`customization-onboarding`](../skills/rep/_onboarding/SKILL.md)). It asks the questions, one section at a time, and writes the answers here.
+2. Run the Customization Onboarding skill ([`customization-onboarding`](../skills/rep/customization-onboarding/SKILL.md)). It asks the questions, one section at a time, and writes the answers here.
 3. Or edit `user-context.yaml` by hand. Keep the keys; replace the placeholder values.
 
 Put your standard agreement at `/context/standard-agreement.md` if you want the contract redline skills to compare against it.

@@ -185,7 +185,7 @@ superintelligent-sales-os/
 │   └── ... (7 existing + 7 new = 14 files)
 ├── skills/
 │   ├── rep/
-│   │   ├── _onboarding/                    # Customization Onboarding Skill
+│   │   ├── customization-onboarding/       # Customization Onboarding Skill
 │   │   │   ├── SKILL.md
 │   │   │   └── test-fixture.md
 │   │   ├── bdr-suite/
@@ -227,7 +227,7 @@ superintelligent-sales-os/
 
 | Suite | Sub-skills | Customization weight | GPT source(s) |
 |---|---|---|---|
-| `_onboarding` (Customization Onboarding Skill) | 1 | N/A — provides customization | Net-new |
+| `customization-onboarding` (Customization Onboarding Skill) | 1 | N/A — provides customization | Net-new |
 | `bdr-suite` | 6 | Medium | research-prospect (existing skill) |
 | `discovery-suite` | 6 | Medium-high | Sage Discovery, SPICED Sales Call Analyst, dana-recap-emails (existing), matching-case-studies (existing) |
 | `demo-suite` | 5 | High | Net-new |
@@ -331,21 +331,23 @@ PTCF+E (Persona/Task/Context/Format/Examples) is the **structural baseline**. Ex
 
 ### Frontmatter (required)
 
+Use only the six portable fields: `name`, `description`, `license`, `compatibility`, `metadata`, `allowed-tools`. Claude.ai uploads reject anything else. `name` must equal the skill's folder name (lowercase letters, digits and hyphens, no slashes). Suite, methodology references and required context go inside `metadata` as strings.
+
 ```yaml
 ---
-name: rep/discovery-suite/discovery-call-scoring
+name: discovery-call-scoring
 description: Score a discovery call transcript against SPICED with evidence requirements, red-flag detection, and coaching prescriptions.
 license: MIT
-suite: rep/discovery-suite
-methodology_refs:
-  - methodology/seven-key-moments.md
-  - methodology/dana-sales-management-brief-v2.md#section-vii
-context_required:
-  - icp
-  - methodology.qualification
-  - sales_process.stages
+metadata:
+  suite: "rep/discovery-suite"
+  methodology_refs: "methodology/seven-key-moments.md, methodology/dana-sales-management-brief-v2.md#section-vii"
+  context_required: "icp, methodology.qualification, sales_process.stages"
 ---
 ```
+
+### Plugin registration (required)
+
+Skills sit in nested suite folders, and Claude Code finds skills only at `skills/<name>/` unless the plugin lists them. Every new skill PR adds its folder to the `skills` array in `.claude-plugin/plugin.json`. Without that line the plugin still passes validation, but the skill never loads.
 
 ### Body structure — required sections
 
@@ -540,7 +542,7 @@ voice:
   voice_filter_skill: "victor-voice-filter"
 ```
 
-**The Customization Onboarding Skill (`rep/_onboarding/`) walks the user through populating this file.** It is the first skill a user runs after installing the OS.
+**The Customization Onboarding Skill (`rep/customization-onboarding/`) walks the user through populating this file.** It is the first skill a user runs after installing the OS.
 
 ---
 
@@ -550,7 +552,7 @@ voice:
 - **80% rule.** Skills generate first 80%; humans finalize 20%.
 - **CRM-first architecture.** Skills touching deal data note CRM sync requirements.
 - **Day-agnostic naming.** No Monday/Friday/Tuesday hardcoded references.
-- **Methodology grounding.** Every skill references methodology files in frontmatter.
+- **Methodology grounding.** Every skill references methodology files in frontmatter `metadata.methodology_refs`.
 - **Verified, not vibes.** Analytical skills cite specific evidence (timestamps, quotes, records), not inferred reasoning.
 - **Customization-first.** Every skill reads from `/context/`.
 - **Collaborative build.** Codex never invents skill content from thin context — always ask Victor for source materials.
@@ -565,7 +567,7 @@ voice:
 - Folder structure, methodology file copies, README v0, customization onboarding scaffold
 
 **Phase 1 — Customization Onboarding Skill (1 PR)**
-- Build `rep/_onboarding/` first; everything else depends on it
+- Build `rep/customization-onboarding/` first; everything else depends on it
 - Without this, no other skill works correctly
 
 **Phase 2 — Manager Coaching Suite (6 PRs, one per sub-skill)**
@@ -636,7 +638,7 @@ voice:
 Each PR must pass these gates before Victor merges:
 
 1. **PTCF+E + Required Sections compliance.** All sections from §7 present, including Tool Discovery.
-2. **Methodology grounding.** Skill references at least one methodology file in frontmatter.
+2. **Methodology grounding.** Skill references at least one methodology file in frontmatter `metadata.methodology_refs`.
 3. **Customization layer.** Skill explicitly reads from `/context/` and has a Customization section.
 4. **Day-agnostic.** No hardcoded day references in cadence skills.
 5. **80% rule.** Output explicitly notes what humans need to finalize.

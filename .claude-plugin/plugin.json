@@ -1,0 +1,15 @@
+{
+  "name": "superintelligent-sales-os",
+  "version": "0.1.0",
+  "description": "Open-source sales operating system: customization onboarding plus manager coaching skills grounded in the TASK diagnostic.",
+  "author": {
+    "name": "Dana Consulting",
+    "url": "https://dana-consulting.com"
+  },
+  "repository": "https://github.com/superintelligentsales/superintelligent-sales-os",
+  "license": "MIT",
+  "skills": [
+    "./skills/rep/customization-onboarding",
+    "./skills/manager/coaching-suite/sub-skills/task-diagnostic"
+  ]
+}

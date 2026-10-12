@@ -1,26 +1,11 @@
 ---
-name: manager/coaching-suite/task-diagnostic
-description: >-
-  This skill applies TASK to evidence about a sales rep's performance. It MUST
-  be used before recommending rep coaching from a missed target, weak win rate,
-  or suspected skill gap. It SHOULD be used for requests such as "diagnose this
-  rep", "what should I coach?", or "activity or skill problem?" It checks volume
-  before conversion and distinguishes practiced skill from supporting knowledge.
-  Do NOT use it to issue employment decisions, invent missing evidence, conduct
-  a full QBR, or create a complete development plan.
+name: task-diagnostic
+description: "This skill applies TASK to evidence about a sales rep's performance. It MUST be used before recommending rep coaching from a missed target, weak win rate, or suspected skill gap. It SHOULD be used for requests such as \"diagnose this rep\", \"what should I coach?\", or \"activity or skill problem?\" It checks volume before conversion and distinguishes practiced skill from supporting knowledge. Do NOT use it to issue employment decisions, invent missing evidence, conduct a full QBR, or create a complete development plan."
 license: MIT
-suite: manager/coaching-suite
-methodology_refs:
-  - methodology/task-coaching-diagnostic.md
-  - methodology/champions-code-seven-elements.md
-  - methodology/managing-to-metrics-library.md
-context_required:
-  - manager.coaching.skill_rubric_path
-  - manager.coaching.performance_baseline_path
-  - manager.coaching.priority_skill
-  - manager.coaching.success_measure
-  - manager.team_segments
-  - manager.top_challenges
+metadata:
+  suite: "manager/coaching-suite"
+  methodology_refs: "methodology/task-coaching-diagnostic.md, methodology/champions-code-seven-elements.md, methodology/managing-to-metrics-library.md"
+  context_required: "manager.coaching.skill_rubric_path, manager.coaching.performance_baseline_path, manager.coaching.priority_skill, manager.coaching.success_measure, manager.team_segments, manager.top_challenges"
 ---
 
 # TASK Coaching Diagnostic
