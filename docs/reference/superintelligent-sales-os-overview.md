@@ -382,7 +382,7 @@ github.com/superintelligentsales/superintelligent-sales-os/
 │   └── ... (Phase 2 methodology files added later)
 ├── skills/                                  # Pattern B: Suite folders, sub-skill folders
 │   ├── rep/
-│   │   ├── _onboarding/                    # Customization Onboarding Skill
+│   │   ├── customization-onboarding/       # Customization Onboarding Skill
 │   │   ├── bdr-suite/
 │   │   │   ├── PACKAGE.md
 │   │   │   ├── customization-template.md
@@ -489,7 +489,7 @@ The Phase 1 build runs collaboratively with Codex, **one sub-skill per PR**. Tot
 | **Foundation** | Codex Build Handoff v2 | ✅ Updated for Suite architecture + collaborative model |
 | **Phase 1 — Setup** | GitHub repo + org (`superintelligentsales`) | ✅ Complete |
 | **Phase 1 — Setup** | Commit `/docs/reference/` to repo | ⏳ Pre-flight |
-| **Phase 1 — Setup** | Customization Onboarding Skill (`rep/_onboarding/`) | ⏳ Build first |
+| **Phase 1 — Setup** | Customization Onboarding Skill (`rep/customization-onboarding/`) | ⏳ Build first |
 | **Phase 1 — Manager** | Coaching Suite (6 sub-skills) | ⏳ Build |
 | **Phase 1 — Manager** | Forecast Suite (5 sub-skills) | ⏳ Build |
 | **Phase 1 — Manager** | Call & Pattern Suite (5 sub-skills) | ⏳ Build |
