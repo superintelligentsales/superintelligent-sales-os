@@ -1,7 +1,7 @@
 {
   "name": "superintelligent-sales-os",
   "version": "0.1.0",
-  "description": "Open-source sales operating system: customization onboarding plus manager coaching skills grounded in the TASK diagnostic.",
+  "description": "Open-source sales operating system: customization onboarding, manager coaching skills grounded in the TASK diagnostic, and an evidence-based SPICED and MEDDPICC deal review.",
   "author": {
     "name": "Dana Consulting",
     "url": "https://dana-consulting.com"
@@ -10,6 +10,7 @@
   "license": "MIT",
   "skills": [
     "./skills/rep/customization-onboarding",
-    "./skills/manager/coaching-suite/sub-skills/task-diagnostic"
+    "./skills/manager/coaching-suite/sub-skills/task-diagnostic",
+    "./skills/manager/forecast-suite/sub-skills/deal-review"
   ]
 }
