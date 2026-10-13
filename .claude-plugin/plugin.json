@@ -10,6 +10,7 @@
   "license": "MIT",
   "skills": [
     "./skills/rep/customization-onboarding",
-    "./skills/manager/coaching-suite/sub-skills/task-diagnostic"
+    "./skills/manager/coaching-suite/sub-skills/task-diagnostic",
+    "./skills/manager/coaching-suite/sub-skills/development-plan-generator"
   ]
 }
