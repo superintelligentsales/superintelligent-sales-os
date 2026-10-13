@@ -11,6 +11,7 @@
   "skills": [
     "./skills/rep/customization-onboarding",
     "./skills/manager/coaching-suite/sub-skills/task-diagnostic",
+    "./skills/manager/coaching-suite/sub-skills/development-plan-generator",
     "./skills/manager/forecast-suite/sub-skills/deal-review",
     "./skills/leader/funnel-diagnostic-lite"
   ]
