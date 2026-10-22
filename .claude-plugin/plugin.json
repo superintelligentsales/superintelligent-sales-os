@@ -12,6 +12,9 @@
     "./skills/rep/customization-onboarding",
     "./skills/manager/coaching-suite/sub-skills/task-diagnostic",
     "./skills/manager/coaching-suite/sub-skills/development-plan-generator",
+    "./skills/manager/coaching-suite/sub-skills/five-step-coaching-conversation",
+    "./skills/manager/coaching-suite/sub-skills/ai-roleplay-partner",
+    "./skills/manager/coaching-suite/sub-skills/action-tracking",
     "./skills/manager/forecast-suite/sub-skills/deal-review",
     "./skills/leader/funnel-diagnostic-lite"
   ]
