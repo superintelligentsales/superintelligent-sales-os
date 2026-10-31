@@ -14,6 +14,7 @@
     "./skills/manager/coaching-suite/sub-skills/development-plan-generator",
     "./skills/manager/coaching-suite/sub-skills/five-step-coaching-conversation",
     "./skills/manager/coaching-suite/sub-skills/ai-roleplay-partner",
-    "./skills/manager/coaching-suite/sub-skills/action-tracking"
+    "./skills/manager/coaching-suite/sub-skills/action-tracking",
+    "./skills/manager/operating-rhythm-suite/sub-skills/meeting-rhythm-analysis"
   ]
 }
