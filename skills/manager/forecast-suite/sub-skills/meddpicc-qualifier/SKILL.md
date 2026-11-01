@@ -181,7 +181,9 @@ asking the champion to arrange a meeting with the economic buyer, say so.
 Read `methodology.qualification` to confirm MEDDPICC is the team's method for this deal
 type. Read `sales_process.stage_definitions` and `manager.forecasting.deal_stages` to map
 the CRM stage to the team's stage names. Read `manager.forecasting.stage_exit_criteria`
-for category gates; these replace the starting rules in Step 5. Read
+for category gates; these replace the starting rules in Step 5. When the starting rules
+are used, say so in the output and note that the team sets its own gates in the Forecast
+section of `rep/customization-onboarding`. Read
 `manager.call_analysis.call_recording_platform` to find transcripts. Read
 `company.competitors` to recognize named competitors in transcripts. Read
 `tools.forecast_data_sources` to find the deal's forecast category.
