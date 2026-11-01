@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fictional//Meeting Rhythm Fixture//EN
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:team@fixture.test
+DTSTART;TZID=America/New_York:20260706T090000
+DTEND;TZID=America/New_York:20260706T100000
+SUMMARY:Weekly Team Meeting
+DESCRIPTION:Results, forecast updates, skill of the week, deal spotlight
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep A:mailto:repa@example-software.test
+ATTENDEE;CN=Rep B:mailto:repb@example-software.test
+ATTENDEE;CN=Rep C:mailto:repc@example-software.test
+ATTENDEE;CN=Rep D:mailto:repd@example-software.test
+ATTENDEE;CN=Rep E:mailto:repe@example-software.test
+ATTENDEE;CN=Rep F:mailto:repf@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:1on1-0@fixture.test
+DTSTART;TZID=America/New_York:20260707T100000
+DTEND;TZID=America/New_York:20260707T103000
+SUMMARY:Rep A / M 1:1
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep A:mailto:repa@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:1on1-1@fixture.test
+DTSTART;TZID=America/New_York:20260707T103000
+DTEND;TZID=America/New_York:20260707T110000
+SUMMARY:Rep B / M 1:1
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep B:mailto:repb@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:1on1-2@fixture.test
+DTSTART;TZID=America/New_York:20260707T110000
+DTEND;TZID=America/New_York:20260707T113000
+SUMMARY:Rep C / M 1:1
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep C:mailto:repc@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:1on1-3@fixture.test
+DTSTART;TZID=America/New_York:20260707T113000
+DTEND;TZID=America/New_York:20260707T120000
+SUMMARY:Rep D / M 1:1
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep D:mailto:repd@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:pipe@fixture.test
+DTSTART;TZID=America/New_York:20260708T130000
+DTEND;TZID=America/New_York:20260708T143000
+SUMMARY:Pipeline Review
+DESCRIPTION:Each rep walks through their pipeline
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep A:mailto:repa@example-software.test
+ATTENDEE;CN=Rep B:mailto:repb@example-software.test
+ATTENDEE;CN=Rep C:mailto:repc@example-software.test
+ATTENDEE;CN=Rep D:mailto:repd@example-software.test
+ATTENDEE;CN=Rep E:mailto:repe@example-software.test
+ATTENDEE;CN=Rep F:mailto:repf@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:lead@fixture.test
+DTSTART;TZID=America/New_York:20260709T090000
+DTEND;TZID=America/New_York:20260709T110000
+SUMMARY:Sales Leadership Staff
+DESCRIPTION:Leadership updates
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Director D:mailto:directord@example-software.test
+ATTENDEE;CN=Ops Lead O:mailto:opsleado@example-software.test
+ATTENDEE;CN=Marketing Lead K:mailto:marketingleadk@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:ops@fixture.test
+DTSTART;TZID=America/New_York:20260710T090000
+DTEND;TZID=America/New_York:20260710T100000
+SUMMARY:RevOps Sync
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Ops Lead O:mailto:opsleado@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:sync@fixture.test
+DTSTART;TZID=America/New_York:20260709T140000
+DTEND;TZID=America/New_York:20260709T150000
+SUMMARY:Sync
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Ops Lead O:mailto:opsleado@example-software.test
+ATTENDEE;CN=Enablement E:mailto:enablemente@example-software.test
+ATTENDEE;CN=Rep A:mailto:repa@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:mktg@fixture.test
+DTSTART;TZID=America/New_York:20260707T150000
+DTEND;TZID=America/New_York:20260707T160000
+SUMMARY:Marketing / Sales alignment
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Marketing Lead K:mailto:marketingleadk@example-software.test
+ATTENDEE;CN=Ops Lead O:mailto:opsleado@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:fin@fixture.test
+DTSTART;TZID=America/New_York:20260710T140000
+DTEND;TZID=America/New_York:20260710T150000
+SUMMARY:Deal desk
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Finance F:mailto:financef@example-software.test
+ATTENDEE;CN=Ops Lead O:mailto:opsleado@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:hire@fixture.test
+DTSTART;TZID=America/New_York:20260708T150000
+DTEND;TZID=America/New_York:20260708T160000
+SUMMARY:Hiring loop
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Recruiter R:mailto:recruiterr@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:early@fixture.test
+DTSTART;TZID=America/New_York:20260707T073000
+DTEND;TZID=America/New_York:20260707T080000
+SUMMARY:Early check-in with Director
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Director D:mailto:directord@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:qbr@fixture.test
+DTSTART;TZID=America/New_York:20260804T130000
+DTEND;TZID=America/New_York:20260804T170000
+SUMMARY:Q3 Planning
+DESCRIPTION:Quarterly business review: performance, market, strategy, development, Q4 plan
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep A:mailto:repa@example-software.test
+ATTENDEE;CN=Rep B:mailto:repb@example-software.test
+ATTENDEE;CN=Rep C:mailto:repc@example-software.test
+ATTENDEE;CN=Rep D:mailto:repd@example-software.test
+ATTENDEE;CN=Rep E:mailto:repe@example-software.test
+ATTENDEE;CN=Rep F:mailto:repf@example-software.test
+END:VEVENT
+BEGIN:VEVENT
+UID:cust1@fixture.test
+DTSTART;TZID=America/New_York:20260707T130000
+DTEND;TZID=America/New_York:20260707T140000
+SUMMARY:Discovery call - Northwind (with Rep B)
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep B:mailto:repb@example-software.test
+ATTENDEE;CN=buyer@northwind.test:mailto:buyer@northwind.test
+END:VEVENT
+BEGIN:VEVENT
+UID:cust2@fixture.test
+DTSTART;TZID=America/New_York:20260709T110000
+DTEND;TZID=America/New_York:20260709T120000
+SUMMARY:Exec sponsor call - Contoso (with Rep C)
+RRULE:FREQ=WEEKLY;COUNT=13
+ORGANIZER:mailto:manager.m@example-software.test
+ATTENDEE;CN=Rep C:mailto:repc@example-software.test
+ATTENDEE;CN=vp@contoso.test:mailto:vp@contoso.test
+END:VEVENT
+BEGIN:VEVENT
+UID:1on1-3@fixture.test
+RECURRENCE-ID;TZID=America/New_York:20260818T113000
+DTSTART;TZID=America/New_York:20260818T113000
+DTEND;TZID=America/New_York:20260818T120000
+SUMMARY:Rep D / M 1:1
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ooo@fixture.test
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Out of office
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
