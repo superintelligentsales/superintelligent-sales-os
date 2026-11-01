@@ -60,24 +60,38 @@ A deal failing any of the three is not a real opportunity. It's a hope. The righ
 
 For the majority of B2B sales motions, my preferred qualification framework is SPICED. It is more conversation-driven, more buyer-centric, and easier for reps to internalize than MEDDPICC. SPICED is what gets used in the bi-monthly forecast review and in every 1:1 deal inspection.
 
-### The five elements
+### The five parts, scored as nine elements
 
-| Element | What it captures |
-|---|---|
-| **S — Situation** | ICP fit, current state, trigger event |
-| **P — Pain** | Multiple specific pain points, prioritized by impact |
-| **I — Impact** | Quantified emotional and rational consequences, ROI |
-| **C — Critical Event** | Hard deadline with consequences if missed |
-| **E — Decision** | Process, criteria, committee, budget |
+SPICED has five parts. For scoring, Pain and Impact each split into rational (measurable) and emotional (felt), and Decision splits into process, criteria, and committee. That gives nine scored elements.
+
+| Part | Scored elements | What it captures |
+|---|---|---|
+| **S: Situation** | Situation | ICP fit, current state, trigger event |
+| **P: Pain** | Rational Pain, Emotional Pain | Specific problems with a measurable cost, and how they affect the buyer and the team |
+| **I: Impact** | Rational Impact, Emotional Impact | The buyer's own quantified consequences and ROI, and what success means to them personally |
+| **C: Critical Event** | Critical Event | Hard deadline with consequences if missed |
+| **E: Decision** | Decision Process, Decision Criteria, Decision Committee | How the decision gets made, what it is judged on, and who signs |
 
 ### How SPICED scoring drives the forecast
 
-SPICED is not a checklist. It is a scoring framework. Each element is rated 1-5 with **specific evidence required** — direct quotes from the buyer, written confirmation, documented stakeholder responses. A SPICED scorecard without evidence is a story. A SPICED scorecard with evidence is a deal.
+SPICED is not a checklist. It is a scoring framework. Each of the nine elements is scored 0 to 2 in half points (0, 0.5, 1, 1.5, 2), for a total out of 18, with **specific evidence required**: direct quotes from the buyer, written confirmation, documented stakeholder responses. A SPICED scorecard without evidence is a story. A SPICED scorecard with evidence is a deal.
 
-Empirical pattern observed across client engagements:
+| Score | Label | Meaning |
+|---|---|---|
+| 0 | None | No buyer evidence. Seller belief, seller estimates, and bare agreement score 0. |
+| 0.5 | Minimal | A surface mention or a single fact. No depth. |
+| 1 | Partial | Some buyer evidence; key dimensions are missing. |
+| 1.5 | Good | Strong buyer evidence across several dimensions; minor gaps. |
+| 2 | Full | Complete buyer evidence on every criterion for the element. Rare. |
 
-- Deals scoring **20+ on the 1-5 scale** (across all five elements) close at roughly 70%+ probability
-- Deals scoring under **12** are not deals — they are hopes. They belong in the development pipeline, not the forecast.
+Read the total against the deal's stage, not against 18. An early discovery call scores low by design.
+
+| Total | Label | Meaning |
+|---|---|---|
+| 0 to 6 | Needs work | Major gaps; the deal is at high risk. |
+| 6.5 to 10 | Partial | Some elements qualified; significant gaps remain. |
+| 10.5 to 14 | Qualified | Solid discovery; minor gaps to close. |
+| 14.5 to 18 | Strong | The deal is well understood. |
 
 The score is what gets reviewed in pipeline inspection. Movement on the score is what triggers stage change. Stage change without SPICED movement is a red flag.
 
