@@ -8,7 +8,7 @@ Every skill follows one rule: **verified, not vibes.** When the evidence isn't t
 
 ## What's in the first release
 
-Eight skills, built for B2B sales managers and the reps they coach.
+Thirteen skills, built for B2B sales managers and the reps they coach.
 
 | Skill | What it does | Try asking |
 |---|---|---|
@@ -20,6 +20,11 @@ Eight skills, built for B2B sales managers and the reps they coach.
 | **Action tracking** | Records coaching commitments and keeps what was agreed separate from what was actually done. | "What is open from last week's coaching?" |
 | **Coaching orchestrator** | Looks across your team and picks each rep's next coaching action. | "What should I coach across my team?" |
 | **Meeting rhythm analysis** | Reads your calendar and shows where your week goes, how 1:1 time is spread across reps, and which meetings are missing. | "Analyze my calendar" |
+| **Pipeline coverage analysis** | Checks whether there is enough pipeline for this period and the next, using your own win rate, and says how much to create by when. | "Do we have enough pipeline?" |
+| **Deal confidence** | Rates each commit and best-case deal on buyer evidence and deal activity, and lists the deals to inspect first. | "Which commit deals should I worry about?" |
+| **SPICED scoring** | Scores one deal on what the buyer said about Situation, Pain, Impact, Critical Event and Decision, and tests its forecast category. | "Score this deal on SPICED" |
+| **MEDDPICC qualifier** | Scores one complex enterprise deal on the eight MEDDPICC elements from buyer quotes, and tests its forecast category. | "Is this deal really commit?" |
+| **Forecast triangulation** | Compares rep commit, stage-weighted pipeline and run-rate to give a forecast range instead of one number. | "What's my forecast?" |
 
 ## Install
 
@@ -39,7 +44,7 @@ claude plugin marketplace add superintelligentsales/superintelligent-sales-os
 claude plugin install superintelligent-sales-os@superintelligent-sales
 ```
 
-To check that it worked, run `claude plugin details superintelligent-sales-os`. The list should show `Skills (8)`.
+To check that it worked, run `claude plugin details superintelligent-sales-os`. The list should show `Skills (13)`.
 
 ### Claude.ai and Claude Cowork
 
@@ -67,7 +72,7 @@ The methodology in `docs/reference/` is free to read and use on its own, with or
 
 ## What's next
 
-This release covers onboarding, coaching and the manager's meeting rhythm. More manager suites (forecasting, deal inspection) and rep-layer skills are being built in public in this repository. Watch the repository to follow along.
+This release covers onboarding, coaching, the manager's meeting rhythm and forecasting. Rep-layer skills are being built in public in this repository. Watch the repository to follow along.
 
 ## Feedback
 
