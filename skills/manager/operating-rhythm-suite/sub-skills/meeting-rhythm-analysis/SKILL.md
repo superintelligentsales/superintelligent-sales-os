@@ -189,6 +189,34 @@ development review. In the Dana model career development sits inside every 1:1
 (5 minutes) and the monthly topic rotation, so a missing separate monthly review is
 not a gap on its own.
 
+### 5b. Separate the three forecast meetings
+
+Forecast work needs three meetings with three different jobs. Most teams run one
+blended meeting that does none of them well. The split is in the Brief (section VI,
+Three Distinct Types of Deal Reviews) and in Dana's forecasting-meetings training
+material, which credits Jason Jordan and Michelle Vazzana's *Crushing Quota*:
+
+| Meeting | Job | The question it answers | Dana format |
+|---|---|---|---|
+| Forecast call | An accurate, defensible forecast | "How much will you sell this period?" | Numbers only, no storytelling. Held in the bi-monthly forecast reviews (start of month and mid-month). |
+| Pipeline scrub (also called pipeline review) | Confirm the pipeline is real | "Is this data right?" | Value, close date, stage, forecast category, stalled and aging deals. Embedded in the 60-minute 1:1 (the 15-minute pipeline block). |
+| Deep-dive deal review | Help a rep win a specific deal | "How do we win this deal?" | 60 minutes, 2 deals, full qualification, stakeholders, strategy, peer and leader input. The deal-review half of the alternating focus session. |
+
+Classify every forecast and pipeline event into one of the three jobs from its
+title, length, attendees and description. Then give each job one status:
+
+- **SEPARATE:** the job has its own slot at the expected cadence.
+- **BLENDED:** one recurring meeting carries two or three jobs. The common case is a
+  whole-team "pipeline review" where every rep walks through every deal: it mixes
+  the forecast call, the scrub and deal strategy. Name the meeting and the jobs it mixes.
+- **MISSING:** no slot carries the job.
+- **NOT VISIBLE:** the data cannot show it (for example, a scrub that may run inside
+  1:1s whose invites have no description).
+
+The calendar shows the slot, not the conversation. Turn the quality check into a
+question: "Does this meeting stay on numbers, or does it drift into deal stories? Too
+much storytelling on a forecast call means it has turned into a deal review."
+
 ### 6. Compare belief with the calendar
 
 For each rhythm the manager self-reported, write one line: what they said, what the
@@ -287,16 +315,18 @@ Return the report in this order, as Markdown, with no emoji:
 5. **Part 2, rhythm check:** the rhythm status table (rhythm, benchmark, found,
    status), then one short paragraph per rhythm that is INCONSISTENT or MISSING,
    including the belief versus calendar line.
-6. **Part 3, rhythm time budget:** the arithmetic, the comparison, hours reclaimed or
+6. **Part 2b, the three forecast meetings:** a three-row table (meeting, where it
+   lives on the calendar now, status), then one question about any BLENDED meeting.
+7. **Part 3, rhythm time budget:** the arithmetic, the comparison, hours reclaimed or
    added, and a dollar figure only if the manager supplied an hourly value.
-7. **Part 4, 30-day plan:** week 1 with the email draft, weeks 2 to 4, and one line
+8. **Part 4, 30-day plan:** week 1 with the email draft, weeks 2 to 4, and one line
    on handling pushback ("Let's try it for two weeks, then decide together").
-8. **Part 5, the one thing:** recommendation, why first, three steps.
-9. **Questions for you:** at most three, each about something the calendar could not
+9. **Part 5, the one thing:** recommendation, why first, three steps.
+10. **Questions for you:** at most three, each about something the calendar could not
    show.
-10. **What you need to finalize:** the categories to confirm, the reps whose 1:1s
+11. **What you need to finalize:** the categories to confirm, the reps whose 1:1s
     may sit under other titles, and the decision on which rhythm to start.
-11. **Data notes:** coverage, exclusions with counts, defaults used, time zone.
+12. **Data notes:** coverage, exclusions with counts, defaults used, time zone.
 
 Every user-facing output, including short replies and refusals, ends with the closing
 offer line below as its final line.
@@ -324,6 +354,15 @@ fix: weekly 60-minute 1:1s with every rep.
 | Team focus session | 60 min, every other week | None matched | MISSING |
 | Forecast review | Start of month 90 min, mid-month 45 min | Weekly 90-min "Pipeline review", whole team | INCONSISTENT |
 | Quarterly business review | Half day, quarterly | "Q3 Planning", 4 hours, August 4 | FOUND |
+
+| Forecast meeting | Where it lives now | Status |
+|---|---|---|
+| Forecast call | Weekly 90-min "Pipeline review" | BLENDED |
+| Pipeline scrub | Same weekly meeting; 1:1 invites have no description | BLENDED |
+| Deep-dive deal review | Same weekly meeting | BLENDED |
+
+The weekly "Pipeline review" appears to carry all three jobs for the whole team at
+once. Does it stay on numbers, or does each rep tell the story of each deal?
 
 Belief versus calendar: You said weekly 1:1s with everyone. The calendar shows weekly
 30-minute 1:1s with Reps A to D and none matched for Rep E or Rep F. Do those two meet

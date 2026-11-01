@@ -5,6 +5,11 @@ Dana operating rhythm (dana-sales-management-brief-v2.md section VI,
 methodology/60-min-1on1-structure.md, methodology/bi-monthly-forecast-cadence.md).
 When manager.cadence sets a frequency, the manager's setting replaces the default.
 
+The rhythm idea follows Verne Harnish, *Mastering the Rockefeller Habits* (2002), as
+the Brief adapts it for sales teams: Priorities, Data and Rhythm. The three forecast
+meetings follow the Brief (section VI) and Dana's forecasting-meetings training
+material, which credits Jason Jordan and Michelle Vazzana, *Crushing Quota*.
+
 ## Core rhythms
 
 | Rhythm | Benchmark | Calendar signals | INCONSISTENT when | Minimum data to judge |
@@ -14,6 +19,14 @@ When manager.cadence sets a frequency, the manager's setting replaces the defaul
 | Team focus session | 60 min, every other week, alternating: deep-dive deal review (2 deals) one week, skill workshop the next. | "Deal review", "deep dive", "skill workshop", "training", "role play" with the team. | Only one of the two formats ever appears; weekly full-pipeline review used instead. | 4 weeks |
 | Forecast review | Bi-monthly: start-of-month comprehensive review (90 min) and mid-month checkpoint (45 min). | "Forecast", "commit", "BOM", "mid-month". | Weekly forecast or pipeline call; no start-of-month review; no mid-month checkpoint. | 6 weeks |
 | Quarterly business review | Half day, quarterly: performance, market and competition, strategy adjustment, team development, next-quarter planning. | "QBR", "quarterly", "planning", "offsite", 3 or more hours, team attendees. | Under 3 hours; no team involvement; leader presentation only. | 13 weeks or a screenshot of the QBR week |
+
+## The three forecast meetings
+
+| Meeting | Benchmark | BLENDED when |
+|---|---|---|
+| Forecast call | Numbers only, inside the bi-monthly forecast reviews. | It shares a slot with deal stories or data checks, for example a whole-team weekly "pipeline review". |
+| Pipeline scrub | Value, close date, stage, forecast category, stalled and aging deals; the 15-minute pipeline block of each 60-minute 1:1. | It runs as a whole-team meeting where each rep reads out every deal. |
+| Deep-dive deal review | 60 minutes, 2 deals, every other week in the team focus session. | It is squeezed into the forecast call or covers every rep's deals at once. |
 
 ## Optional rhythms (from the source bot)
 

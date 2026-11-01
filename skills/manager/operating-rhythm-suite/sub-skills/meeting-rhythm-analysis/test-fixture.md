@@ -45,6 +45,10 @@ manager.methodology_preference: '[USER]'
   6 reps); team focus session MISSING; forecast review INCONSISTENT (weekly 90-minute
   "Pipeline Review" with the whole team, versus bi-monthly); quarterly business review
   FOUND (4 hours, August 4).
+- Three forecast meetings table: forecast call, pipeline scrub and deep-dive deal
+  review all BLENDED into the weekly 90-minute "Pipeline Review" (its invite says
+  "Each rep walks through their pipeline"), followed by one question. "Deal desk" is
+  not treated as a deal review without a question to the manager.
 - Belief versus calendar line for weekly 1:1s naming Rep E and Rep F.
 - Patterns: the four back-to-back 1:1s on the same morning (zero recovery) and a
   weekly forecast call, each phrased as a question. A 7:30 AM recurring meeting noted
@@ -81,7 +85,7 @@ followed.
 - [ ] Every figure traces to the calendar, a named default or a manager-supplied value.
 - [ ] No unsourced statistics, no improvement percentages, no assumed hourly rate.
 - [ ] Customer names and external attendees not repeated in the report.
-- [ ] Rhythm statuses use only FOUND, INCONSISTENT, MISSING, NOT VISIBLE.
+- [ ] Rhythm statuses use only FOUND, INCONSISTENT, MISSING, NOT VISIBLE; forecast meeting statuses use only SEPARATE, BLENDED, MISSING, NOT VISIBLE.
 - [ ] Quality patterns phrased as questions, not verdicts.
 - [ ] No weekday-specific recommendations beyond what the calendar itself shows.
 - [ ] No calendar write; invite text offered as a draft with a question.
