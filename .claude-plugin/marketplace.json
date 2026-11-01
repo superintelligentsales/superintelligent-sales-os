@@ -1,0 +1,15 @@
+{
+  "name": "superintelligent-sales",
+  "description": "Free, open-source Claude skills for sales managers and reps from Dana Consulting.",
+  "owner": {
+    "name": "Dana Consulting",
+    "url": "https://dana-consulting.com"
+  },
+  "plugins": [
+    {
+      "name": "superintelligent-sales-os",
+      "source": "./",
+      "description": "Customization onboarding plus manager coaching and operating rhythm skills grounded in the TASK diagnostic."
+    }
+  ]
+}
