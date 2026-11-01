@@ -37,7 +37,7 @@ You do not need any technical tools. The Sales OS installs from the Claude app, 
    ```
 
 4. **Install the Sales OS.** Find **superintelligent-sales-os** in the list and select **Add**.
-5. **Check that it worked.** Open the plugin from **Customize > Plugins**. Its **Skills** tab should list eight skills, including **customization-onboarding**.
+5. **Check that it worked.** Open the plugin from **Customize > Plugins**. Its **Skills** tab should list nine skills, including **customization-onboarding**.
 
 The plugin is saved to your Claude account, so you install it once. It is then available in chat on the web, desktop and mobile, and in Cowork the next time you start a task. To pick a skill yourself, type `/` in the message box and look for the skills marked **superintelligent-sales-os**. You can also just describe what you want, such as "Diagnose this rep," and Claude loads the matching skill.
 
