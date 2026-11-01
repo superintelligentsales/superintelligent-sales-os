@@ -23,9 +23,30 @@ Eight skills, built for B2B sales managers and the reps they coach.
 
 ## Install
 
-### Claude Code
+You do not need any technical tools. The Sales OS installs from the Claude app, and once it is on your account it works in Claude chat, Claude Cowork and Claude Code.
 
-You need [Claude Code](https://code.claude.com/docs/en/overview). In a Claude Code session, run these two commands:
+### In the Claude app (web or desktop) and Claude Cowork
+
+1. **Turn on file creation.** In Claude, go to **Settings > Capabilities** and turn on **Code execution and file creation** (in the newer settings layout it is called **Create and edit files**). Skills need this to run. On Team and Enterprise plans your administrator controls this setting.
+2. **Open the Plugins page.** Select **Customize** in the sidebar, then **Plugins**. You can also go straight to [claude.ai/customize/plugins](https://claude.ai/customize/plugins).
+3. **Add this repository.** Select **Add**, then **Add marketplace**, and paste:
+
+   ```
+   superintelligentsales/superintelligent-sales-os
+   ```
+
+4. **Install the Sales OS.** Find **superintelligent-sales-os** in the list and select **Add**.
+5. **Check that it worked.** Open the plugin from **Customize > Plugins**. Its **Skills** tab should list eight skills, including **customization-onboarding**.
+
+The plugin is saved to your Claude account, so you install it once. It is then available in chat on the web, desktop and mobile, and in Cowork the next time you start a task. To pick a skill yourself, type `/` in the message box and look for the skills marked **superintelligent-sales-os**. You can also just describe what you want, such as "Diagnose this rep," and Claude loads the matching skill.
+
+To get new skills as they are released, open the marketplace on the Plugins page and select **Check for updates**, or turn on **Sync automatically**.
+
+On a Team or Enterprise plan, an owner decides whether members can add their own marketplaces. If you do not see **Add marketplace**, ask your Claude administrator.
+
+### In Claude Code (optional)
+
+If you already use [Claude Code](https://code.claude.com/docs/en/overview), you can install from there instead. In a Claude Code session, run these two commands:
 
 ```
 /plugin marketplace add superintelligentsales/superintelligent-sales-os
@@ -41,9 +62,7 @@ claude plugin install superintelligent-sales-os@superintelligent-sales
 
 To check that it worked, run `claude plugin details superintelligent-sales-os`. The list should show `Skills (8)`.
 
-### Claude.ai and Claude Cowork
-
-Steps for the Claude apps are being tested now and will be posted here. If you want them as soon as they are ready, click **Watch** at the top of this page or open an issue.
+If you installed from the Claude app, you do not need these steps. Claude Code picks up the plugin from your account the next time you start a session.
 
 ## Quick start
 
