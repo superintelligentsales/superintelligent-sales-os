@@ -183,7 +183,9 @@ Capture one specific rep commitment and the manager's matching support. Include
 the action, owner, one metric, one skill, evidence and one agreed review date.
 Use the existing one-on-one rhythm; do not create or imply a booked meeting.
 If the rep and manager have not agreed, label the commitment PROPOSED and identify
-the confirmation still needed.
+the confirmation still needed. Label every new item the rep has not accepted,
+including the practice wording and the manager's support, PROPOSED rather than
+Pending or Agreed.
 
 Ask the rep to describe the commitment in their own words. For example:
 “What will you try, what will you bring back, and what do you need from me?”
