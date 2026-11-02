@@ -146,7 +146,7 @@ supplied, list aging deals by days in stage without calling any of them late.
 ### 5. Select the deals to inspect and one first action
 
 From the gap, select up to five deals whose inspection would most change the band:
-largest amount first among deals that drive the gap. For each, give the identifier,
+largest amount first among deals that drive the gap. Sort by amount alone, descending; an aging flag such as days past the stage maximum changes the question asked, never the rank, so a 700 commit comes before a 650 commit even when the 650 is the older deal. List other aging or uncommitted deals after the commit deals that drive the gap, and name them as aging without calling them late. For each, give the identifier,
 owner, amount, stage, days in stage, and the specific question to ask. Use the Deal
 Inspection evidence standard: a committed deal should have a critical event, more than
 one engaged stakeholder, and quantified impact, each with evidence. Missing evidence is
