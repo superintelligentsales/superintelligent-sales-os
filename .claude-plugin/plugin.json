@@ -1,7 +1,7 @@
 {
   "name": "superintelligent-sales-os",
   "version": "0.1.0",
-  "description": "Open-source sales operating system: customization onboarding plus manager coaching, operating rhythm and forecast skills grounded in the TASK diagnostic.",
+  "description": "Open-source sales operating system: customization onboarding plus manager coaching, operating rhythm and forecast skills grounded in the TASK diagnostic, an evidence-based SPICED and MEDDPICC deal review, and a cited-benchmark funnel check.",
   "author": {
     "name": "Dana Consulting",
     "url": "https://dana-consulting.com"
@@ -17,6 +17,8 @@
     "./skills/manager/coaching-suite/sub-skills/action-tracking",
     "./skills/manager/coaching-suite/sub-skills/coaching-orchestrator",
     "./skills/manager/operating-rhythm-suite/sub-skills/meeting-rhythm-analysis",
-    "./skills/manager/forecast-suite/sub-skills/forecast-triangulation"
+    "./skills/manager/forecast-suite/sub-skills/forecast-triangulation",
+    "./skills/manager/forecast-suite/sub-skills/deal-review",
+    "./skills/leader/funnel-diagnostic-lite"
   ]
 }
