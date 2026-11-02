@@ -185,8 +185,9 @@ it a pattern to examine, and offer the group question the manager could ask.
 
 Propose the next review from the manager's cadence. Read manager.cadence; use the
 one-on-one frequency for development commitments and the team meeting frequency for
-team patterns. When manager.cadence is empty or placeholder, use this default and say
-so: weekly review of activities and obstacles, monthly checkpoint on skill progress,
+team patterns. When manager.cadence is empty or placeholder, use this starting default
+and say so, and point the manager to rep/customization-onboarding to set the team's own
+rhythm: weekly review of activities and obstacles, monthly checkpoint on skill progress,
 quarterly review of the whole coaching plan. Never invent a new meeting, and never add
 a monthly meeting the manager does not already hold. Propose a date; do not book it.
 
