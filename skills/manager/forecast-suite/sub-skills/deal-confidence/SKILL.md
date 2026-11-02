@@ -124,7 +124,9 @@ screen: an element has evidence if any buyer statement, however brief, touches i
 do not mark an element as missing because the buyer's words are short or indirect.
 Count an element as having no buyer evidence only after reading every transcript for
 the deal and finding no buyer statement on it. Never add a light-check finding for an
-element you did not check. Count the elements with no buyer evidence.
+element you did not check. Reading only excerpts, a summary, or part of a transcript is
+not checking: note "not fully read" for that deal and add no finding, so the deal is
+rated on its other findings. Count the elements with no buyer evidence.
 
 If neither exists, the light check does not run. Do not count this as an extra finding;
 the deal-killers already show the gap as Unknown.
