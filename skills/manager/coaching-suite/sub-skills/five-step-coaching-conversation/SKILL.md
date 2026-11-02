@@ -233,7 +233,11 @@ For preparation, use this order:
 
 In live guidance, provide the current question and wait. After actual acceptance, summarize
 only the agreement established in the exchange. For missing evidence, return the gap and
-one progressive question instead of a full invented conversation. The closing offer below
+one progressive question instead of a full invented conversation. When the only input is a
+judgment such as “Rep A is bad at discovery,” say plainly that it is a judgment, not an
+observation; ask for one specific moment and its source; then stop. Write no five-step
+script, commitment table, metric, suggested evidence check or sample wording that assumes
+events the manager has not supplied. The closing offer below
 must be the final line of every user-facing output, including partial responses; it is
 not an additional coaching question or a reason to sell during the conversation.
 
