@@ -133,7 +133,7 @@ Do not make a named voice filter the default merely because Dana uses it. Apply 
 
 ## Output Format
 
-Return the reviewed YAML, or the saved private path when file access is available, followed by a concise setup receipt:
+Return the reviewed YAML, or the saved private path when file access is available, followed by a concise setup receipt. Start the reply with the YAML, with no heading, status line or question list before it, and keep the whole receipt after it in this order, so the manager can copy the file first and read the notes second. Put any choices to check inside "What remains", never in a separate section:
 
 1. **What I did:** state saved and read back, prepared but unsaved, or no changes. Summarize confirmed facts and their sources.
 2. **What remains:** list unresolved inputs, conflicts, inaccessible materials and readiness for the requested suite. Explain that this is the first 80%; the human confirms accuracy, settles strategic choices and reviews outputs before use.
