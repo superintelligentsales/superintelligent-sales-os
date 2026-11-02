@@ -61,7 +61,7 @@ Read the selected sibling's current SKILL.md before handing off. Files in the pa
 
 ### 1. Establish whether this workflow applies
 
-Confirm that manager.enabled is true and the user is acting in the manager role. False stops manager orchestration. Unknown prompts one targeted role/context question; do not ask a full intake questionnaire. If operating context is incomplete or stale, use installed customization-onboarding as the proposed first step. It produces a reviewed private context and readiness receipt, not an automatic downstream launch.
+Confirm that manager.enabled is true and the user is acting in the manager role. False stops manager orchestration. Unknown (including an unanswered [USER] sentinel) means ask the one role/context question and stop: no routing table, no provisional routes, no first action until the manager answers. A request that is only forecasting or another out-of-scope decision does not activate this router: say so in one sentence, name where that work belongs, and do not open with the table or any Rep row. Never ask a full intake questionnaire. If operating context is incomplete or stale, use installed customization-onboarding as the proposed first step. It produces a reviewed private context and readiness receipt, not an automatic downstream launch.
 
 Respect an explicit direct request for a single skill. A request to rehearse a buyer call should not trigger a team diagnosis first. For mixed requests, keep out-of-scope decisions separate and answer the coaching portion only when its inputs support doing so.
 
