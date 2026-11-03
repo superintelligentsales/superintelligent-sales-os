@@ -183,10 +183,12 @@ Keep one concise result in this order:
 2. **Pipeline groups:** totals for qualified, held out past stage limit, and held out with
    no close date, for the current period and each later period.
 3. **Coverage table:** one row each for the team, each rep, and each quota component, with
-   remaining target, qualified pipeline, qualified coverage, expected value, shortfall, and
-   largest-deal share.
+   remaining target, raw coverage with its calculation (for example 650 ÷ 500), qualified
+   pipeline, qualified coverage, expected value, shortfall, and largest-deal share.
 4. **Creation gap:** for each period, the shortfall, creation gap, deadline, required weekly
-   pace, and measured weekly pace, with the calculation lines.
+   pace, and measured weekly pace, with the calculation lines. When the deadline is close,
+   also state what the measured pace creates before it (pace ÷ 7 × days left), so the
+   manager sees how little can still land.
 5. **Deals to inspect:** up to five rows with identifier, owner, amount, stage, days in
    stage or missing field, and the question to ask. Cite the source record for each. Pick
    them in this fixed order so repeat runs flag the same deals: every deal held out past
