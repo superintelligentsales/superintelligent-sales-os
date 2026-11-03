@@ -200,7 +200,13 @@ manager can support by reviewing an example or observing the next rehearsal.
 Check results only when subsequent evidence exists. An accepted plan is not completed
 work, and a better second practice is not a revenue result. Expand to another skill
 only after the rep and manager judge this focus ready. The debrief closes with one
-skill and one next practice, followed by the required offer line.
+skill and one next practice, followed by the required offer line. Do not end the
+debrief on an open question or on a promise to hold suggested wording. After the
+rep's reflection, always state the next practice as "Proposed next practice (not yet
+accepted)", for example replaying the same moment with a consequence question, and
+then give the Receipt: what was practiced, that judgment about what to apply in real
+conversations stays with the rep and manager, and whether a private record was
+requested (say "none requested" if not).
 
 ## Customization
 
