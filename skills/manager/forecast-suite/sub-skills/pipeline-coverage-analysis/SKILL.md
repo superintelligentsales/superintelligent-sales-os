@@ -121,7 +121,10 @@ answerable" and the one question.
 Expected value of qualified pipeline = the sum of each deal's amount × the team's measured
 rate for its stage, from `manager.forecasting.historical_conversion_rates`.
 
-Compare the expected value to the remaining target. The difference is the expected
+Show the sum as one line of amount × rate terms (for example 200 × 0.85 + 300 × 0.55 =
+295.0) for the team, and again for every rep and quota component, listing only that row's
+qualified deals, so a reader can check each total. Naming the stage rates alone is not
+enough. Compare the expected value to the remaining target. The difference is the expected
 shortfall. If stage rates are not measured, report stage-weighted coverage as "not
 estimable" and continue with Steps 2 and 3.
 
