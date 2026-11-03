@@ -130,7 +130,10 @@ Six distinctions cause most scoring errors:
   buildings on a spreadsheet" is Situation until the buyer says what it costs.
 - **Rational Pain needs a number.** A complaint without a cost stays below 1.
 - **Impact must come from the buyer.** A seller's savings estimate that the buyer accepts
-  scores 0. Market sizing is not this buyer's impact.
+  scores 0. Market sizing is not this buyer's impact. A gain the buyer states with one
+  measure of their own, such as days saved or credits no longer paid, scores 1. Score 0.5
+  only when the buyer names a gain with no measure. Later agreement ("Right") adds nothing
+  and never lowers the earlier quote.
 - **Critical Event versus compelling event:** a critical event is a date with a stated
   consequence if it is missed. A preferred date with no consequence is a compelling event
   and caps at 1. "As soon as possible" is neither and adds nothing. When the buyer says

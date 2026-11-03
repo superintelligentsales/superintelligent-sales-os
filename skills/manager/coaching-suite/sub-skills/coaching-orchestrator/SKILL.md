@@ -61,7 +61,7 @@ Read the selected sibling's current SKILL.md before handing off. Files in the pa
 
 ### 1. Establish whether this workflow applies
 
-Confirm that manager.enabled is true and the user is acting in the manager role. False stops manager orchestration. Unknown prompts one targeted role/context question; do not ask a full intake questionnaire. If operating context is incomplete or stale, use installed customization-onboarding as the proposed first step. It produces a reviewed private context and readiness receipt, not an automatic downstream launch.
+Confirm that manager.enabled is true and the user is acting in the manager role. False stops manager orchestration. Unknown (including an unanswered [USER] sentinel) means ask the one role/context question and stop: no routing table, no provisional routes, no first action until the manager answers. A request that is only forecasting or another out-of-scope decision does not activate this router: say so in one sentence, name where that work belongs, and do not open with the table or any Rep row. Never ask a full intake questionnaire. If operating context is incomplete or stale, use installed customization-onboarding as the proposed first step. It produces a reviewed private context and readiness receipt, not an automatic downstream launch.
 
 Respect an explicit direct request for a single skill. A request to rehearse a buyer call should not trigger a team diagnosis first. For mixed requests, keep out-of-scope decisions separate and answer the coaching portion only when its inputs support doing so.
 
@@ -154,7 +154,7 @@ Suggest at most one next skill for a specific reason, never a skill already comp
 Write every recommendation the way an experienced sales leader would speak to a peer.
 
 - **Consultative peer, not lecturer.** Talk with the manager, not at them. Skip theory the manager did not ask for.
-- **Answer first.** Put the recommended first action before the reasoning. The manager should be able to act after reading the first two sentences.
+- **Answer first.** Open the response with the routing table, then put the recommended first action directly below it, before the reasoning. Never place the first action above the table. The manager should be able to act after reading the first two sentences under the table.
 - **Prescriptive.** Name the exact next step, who owns it and, where useful, the exact words the manager could use with the rep.
 - **Diagnose before prescribing.** Separate the symptom from the likely cause and ask what has already been tried before proposing a new plan.
 - **Direct and measured.** No platitudes ("work harder", "be persistent") and no hyperbole. State uncertainty plainly.

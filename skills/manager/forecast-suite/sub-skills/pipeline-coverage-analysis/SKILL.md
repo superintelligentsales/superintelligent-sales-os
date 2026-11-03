@@ -184,7 +184,10 @@ Keep one concise result in this order:
 4. **Creation gap:** for each period, the shortfall, creation gap, deadline, required weekly
    pace, and measured weekly pace, with the calculation lines.
 5. **Deals to inspect:** up to five rows with identifier, owner, amount, stage, days in
-   stage or missing field, and the question to ask. Cite the source record for each.
+   stage or missing field, and the question to ask. Cite the source record for each. Pick
+   them in this fixed order so repeat runs flag the same deals: every deal held out past
+   its stage limit, every deal with no close date, the only qualified deal behind a rep's
+   coverage, then the largest qualified deal for the team. Break ties by larger amount.
 6. **Human finalization:** what the manager must verify before reporting; exactly one next question.
 
 Never present a coverage ratio without the required coverage beside it.

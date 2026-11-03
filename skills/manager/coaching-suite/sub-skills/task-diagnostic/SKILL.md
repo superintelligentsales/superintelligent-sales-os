@@ -135,7 +135,7 @@ use scenarios rather than false precision where deal sizes, dependencies, or tim
 
 Apply the measured-history sufficiency ladder from the reference only to decided deals,
 never projections. Report numerator, denominator, time window, exclusions, and source.
-For anecdotal samples, quote counts instead of percentages. Keep uncertainty visible even
+For anecdotal samples, quote counts instead of percentages, and do not turn the count into a rate anywhere else in the answer: no "if the rate were 2 in 10" projections or opportunities-needed math built on it. State the volume gap in deals and name the credible next opportunities instead. Keep uncertainty visible even
 with large datasets: sample size alone does not remove selection bias or establish cause.
 
 Choose comparisons progressively: comparable peer cohort, the rep's own prior comparable

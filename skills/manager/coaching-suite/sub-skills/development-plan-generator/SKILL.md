@@ -224,6 +224,7 @@ rep finalize the plan and meeting placement. Do not append a menu of unrelated i
 - Unavailable recording: use supplied observations with limitations; never score unseen behavior.
 - Missing opportunity or peer: offer a proposed equivalent exercise and retain the transfer gap.
 - Scope beyond development: decline employment judgments and keep commercial forecasting separate.
+- Request not about a rep development plan (for example, "Summarize these meeting notes"): this skill is not invoked. Do not open with a skill header, run the gap check, ask the unlock question or route to `task-diagnostic`. Handle the request as ordinary work.
 - Publication or messages: keep personnel information private; obtain specific authorization for
   sharing, sending, CRM changes or scheduling. This skill does not perform those actions by default.
 - Files: use the authorized folder; do not delete, overwrite or bulk-operate on more than 50 files
