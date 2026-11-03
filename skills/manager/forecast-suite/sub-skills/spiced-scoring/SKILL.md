@@ -221,8 +221,10 @@ Keep one concise result in this order:
 1. **Headline verdict:** one line with deal health, total, current category, and the
    category the evidence supports. Example: "Partial, 9 of 18. Marked Commit; evidence
    supports Best Case. Gaps: no consequence tied to the date, approver not engaged."
-2. **Score display:** one bar per element, ten characters wide, five per point, with a
-   plain-language phrase a reader can follow without knowing SPICED. Total and label.
+2. **Score display:** one bar per element, ten characters wide, five per point, drawn
+   with = for filled and - for empty. Never use block or half-block glyphs. Round a half
+   point down to a whole character (0.5 is ==--------, 1 is =====-----, 1.5 is
+   =======---) and print the exact score beside the bar. Add a plain-language phrase a reader can follow without knowing SPICED. Total and label.
 3. **Element analysis:** for each element, the score, one sentence on what it means for
    the deal, the strongest buyer quote with call date and timestamp, what is established,
    what is missing, and a coachable moment when below 1.5.
