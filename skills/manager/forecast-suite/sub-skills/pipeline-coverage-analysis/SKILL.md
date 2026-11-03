@@ -111,6 +111,10 @@ later stages, Step 4 gives the more accurate expected value.
 
 If the team has no measured win rate and no coverage target, say coverage cannot be
 judged, show the raw ratio for reference only, and ask one question to get the win rate.
+Give no enough or not enough verdict, and do not run stage-weighted expected value, a
+break-even win rate, or a creation gap from an assumed win rate. Without the win rate,
+any of those is a judgment in disguise. Answer "do we have enough?" with "not yet
+answerable" and the one question.
 
 ### Step 4: Stage-weighted coverage
 
