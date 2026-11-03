@@ -201,7 +201,7 @@ for existing availability. Do not add context fields or change the public templa
 
 Resolve authorized paths relative to the private context file. A `[USER]` sentinel, blank or
 unreadable path is unknown. When no template exists, use the output format below; when a
-required diagnosis, baseline or cadence is unknown, ask for it before finalizing the plan.
+required diagnosis, baseline or cadence is unknown, stop before any activity table or date and ask for it; a draft plan followed by a closing question is the wrong order.
 Respect the supplied voice filter when available, without letting tone override evidence.
 
 ## Output Format

@@ -152,7 +152,7 @@ Inspection evidence standard: a committed deal should have a critical event, mor
 one engaged stakeholder, and quantified impact, each with evidence. Missing evidence is
 a question for the rep, not a conclusion.
 
-Give one first action with an owner and timing, usually: inspect the selected deals in
+Give one first action with an owner and timing. Name the owner only as the input does; if the manager's name was not supplied, write "the manager" and never invent a name. Usually: inspect the selected deals in
 the next forecast review or 1:1, then re-run the triangulation. Draft the message to
 leadership as a band with its reason, for the manager to edit. Never send it.
 

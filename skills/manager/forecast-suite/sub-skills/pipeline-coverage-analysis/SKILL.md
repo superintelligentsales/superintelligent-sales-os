@@ -111,13 +111,20 @@ later stages, Step 4 gives the more accurate expected value.
 
 If the team has no measured win rate and no coverage target, say coverage cannot be
 judged, show the raw ratio for reference only, and ask one question to get the win rate.
+Give no enough or not enough verdict, and do not run stage-weighted expected value, a
+break-even win rate, or a creation gap from an assumed win rate. Without the win rate,
+any of those is a judgment in disguise. Answer "do we have enough?" with "not yet
+answerable" and the one question.
 
 ### Step 4: Stage-weighted coverage
 
 Expected value of qualified pipeline = the sum of each deal's amount × the team's measured
 rate for its stage, from `manager.forecasting.historical_conversion_rates`.
 
-Compare the expected value to the remaining target. The difference is the expected
+Show the sum as one line of amount × rate terms (for example 200 × 0.85 + 300 × 0.55 =
+295.0) for the team, and again for every rep and quota component, listing only that row's
+qualified deals, so a reader can check each total. Naming the stage rates alone is not
+enough. Compare the expected value to the remaining target. The difference is the expected
 shortfall. If stage rates are not measured, report stage-weighted coverage as "not
 estimable" and continue with Steps 2 and 3.
 
@@ -179,10 +186,12 @@ Keep one concise result in this order:
 2. **Pipeline groups:** totals for qualified, held out past stage limit, and held out with
    no close date, for the current period and each later period.
 3. **Coverage table:** one row each for the team, each rep, and each quota component, with
-   remaining target, qualified pipeline, qualified coverage, expected value, shortfall, and
-   largest-deal share.
+   remaining target, raw coverage with its calculation (for example 650 ÷ 500), qualified
+   pipeline, qualified coverage, expected value, shortfall, and largest-deal share.
 4. **Creation gap:** for each period, the shortfall, creation gap, deadline, required weekly
-   pace, and measured weekly pace, with the calculation lines.
+   pace, and measured weekly pace, with the calculation lines. When the deadline is close,
+   also state what the measured pace creates before it (pace ÷ 7 × days left), so the
+   manager sees how little can still land.
 5. **Deals to inspect:** up to five rows with identifier, owner, amount, stage, days in
    stage or missing field, and the question to ask. Cite the source record for each. Pick
    them in this fixed order so repeat runs flag the same deals: every deal held out past

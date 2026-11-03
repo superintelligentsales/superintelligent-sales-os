@@ -118,7 +118,7 @@ Preserve the intended audience. Individual development stays private; a team por
 
 Populate only relevant reps. Label recommendations as proposed. Cite dated observations and acceptance evidence; distinguish source facts from interpretation. For an evidence gate, use “Question first” in the skill column rather than inventing a tool result.
 
-Below the table, state the recommended first action, why it takes precedence and one question that unlocks it. Say whether any handoff actually ran. State what the humans still need to validate. Do not add a menu, numerical ranking or parallel tracker.
+Below the table, state the recommended first action, why it takes precedence and one question that unlocks it. The question is a single sentence with a single information request: when two gaps compete (for example missing call evidence and unconfirmed delivery), ask only about the one that blocks the first action and list the other under Missing evidence. Never join two questions with "and". Say whether any handoff actually ran. State what the humans still need to validate. Do not add a menu, numerical ranking or parallel tracker.
 
 ## Example
 
