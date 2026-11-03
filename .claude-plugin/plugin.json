@@ -17,6 +17,7 @@
     "./skills/manager/coaching-suite/sub-skills/action-tracking",
     "./skills/manager/coaching-suite/sub-skills/coaching-orchestrator",
     "./skills/manager/operating-rhythm-suite/sub-skills/meeting-rhythm-analysis",
+    "./skills/manager/operating-rhythm-suite/sub-skills/weekly-1on1-prep",
     "./skills/manager/forecast-suite/sub-skills/forecast-triangulation"
   ]
 }
