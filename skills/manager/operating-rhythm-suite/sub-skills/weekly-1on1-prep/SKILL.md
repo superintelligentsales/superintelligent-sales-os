@@ -1,6 +1,6 @@
 ---
 name: weekly-1on1-prep
-description: "This skill prepares a sales manager for one rep's weekly 60-minute 1:1 and returns a one-page prep snapshot: last week's commitments, performance and activity facts, two or three deals to inspect with the reason each was picked, one TASK-level coaching focus, this week's rotation topic, a career note, a timed six-block agenda and a draft follow-up summary. It MUST be used for requests such as 'prep my 1:1 with [rep]', 'get me ready for my one-on-one', 'what should I cover with [rep] this week', or 'build my 1:1 agenda'. It SHOULD be used when a manager shares a rep's pipeline, metrics or last 1:1 notes and asks what to focus on. Do NOT use it to run the coaching conversation itself, do a full TASK diagnosis, build a development plan, score a call, run a forecast or team deal review, audit the whole calendar, or book or move meetings."
+description: "This skill prepares a sales manager for one rep's weekly 60-minute 1:1 and returns a one-page prep snapshot: last week's commitments, performance and activity facts, two or three deals to inspect with the reason each was picked, one TASK-level coaching focus, this week's rotation topic, a timed five-block agenda, a flag when the quarterly career conversation is due, and a draft follow-up summary. It MUST be used for requests such as 'prep my 1:1 with [rep]', 'get me ready for my one-on-one', 'what should I cover with [rep] this week', or 'build my 1:1 agenda'. It SHOULD be used when a manager shares a rep's pipeline, metrics or last 1:1 notes and asks what to focus on. Do NOT use it to run the coaching conversation itself, do a full TASK diagnosis, build a development plan, score a call, run a forecast or team deal review, audit the whole calendar, or book or move meetings."
 license: MIT
 metadata:
   suite: "manager/operating-rhythm-suite"
@@ -57,8 +57,8 @@ Ask for missing inputs once, together, not one at a time.
 | File | Format | Purpose |
 |---|---|---|
 | Prep snapshot | Markdown in the conversation, one page per rep | What the manager reads in the prep block: facts, deals, focus, agenda. |
-| Agenda | Six timed blocks | Shareable with the rep before the meeting if the manager chooses. |
-| Follow-up summary draft | Plain text, unsent | The written summary the manager sends by the next business day. |
+| Agenda | Five timed blocks | Shareable with the rep before the meeting if the manager chooses. |
+| Follow-up summary draft | Plain text, unsent | The written summary the manager sends no later than the next day. |
 
 Produce one snapshot per rep. Never mix two reps on one page, because 1:1 content is
 private to that rep. Keep real personnel and customer details out of the public
@@ -87,26 +87,28 @@ deal-inspection-and-qualification.md for the deal checks.
 
 ## Methodology / Framework
 
-### 1. The six blocks the prep serves
+### 1. The five blocks the prep serves
 
 The 1:1 runs 60 minutes in a fixed order, and the prep fills each block:
 
 | # | Block | Minutes | What the prep supplies |
 |---|---|---|---|
-| 1 | Personal check-in | 5 | One personal or career note from last time, if recorded. |
+| 1 | Personal check-in | 5 | One personal note from last time, if recorded. |
 | 2 | Performance review | 10 | Results and activity facts with sources, and last week's commitments. |
 | 3 | Pipeline scrub and deal inspection | 15 | Two or three selected deals, each with its reason and one question. |
 | 4 | Skill development and call coaching | 20 | One TASK-level focus, this week's rotation topic, a call moment if available. |
-| 5 | Career development | 5 | The rep's stated goal, or a prompt to ask for it if none is recorded. |
-| 6 | Action planning | 5 | A slot for one development commitment and any deal actions. |
+| 5 | Action planning | 10 | A slot for one development commitment and any deal actions. |
 
 The order matters: the check-in builds the safety that lets the rep take coaching
 honestly, and skill work gets the most time because it is the only investment that
 compounds. If the meeting must be shorter, shorten blocks 2 and 3, not 1 and 4.
 
-Check the agenda against the six objectives (coaching, performance goals, deal
-inspection, CRM hygiene, removing blockers, career goals); fewer than four means a
-status meeting. Flag any that are missing.
+Career development is quarterly, not weekly: it belongs in a quarterly strategic
+review with the rep. When no career conversation is recorded this quarter, flag it as
+due and offer one question; do not add a career block to the weekly agenda.
+
+Check the agenda against five weekly objectives (coaching, performance goals, deal
+inspection, CRM hygiene, removing blockers); fewer than four means a status meeting.
 
 ### 2. Last week first
 
@@ -115,27 +117,24 @@ the action-tracking statuses when a tracker exists: CONFIRMED, UNKNOWN, MISSED,
 MANAGER-REPORTED, INCOMPLETE. A commitment with no evidence stays UNKNOWN and becomes
 a question for the rep. Never mark one done because time has passed.
 
-When a confirmed commitment exists, draft one specific acknowledgment the manager can
-open with. Specific reinforcement names what the rep did and where ("you sent the
-mutual action plan the day after the call, as agreed"). Generic praise ("good week")
-does not count. One specific positive observation per session is the discipline.
+When a commitment is confirmed, draft one specific acknowledgment naming what the rep
+did and where ("you sent the mutual action plan the day after the call"). Generic
+praise ("good week") does not count.
 
 ### 3. Performance facts, not a performance story
 
 Report results and activity counts for the period, each with source and date, as raw
 counts. Compare to a target only when one is supplied. Never compare to teammates.
 
-Do not explain the numbers. "Discovery calls held: 3 this week, 7 last week (CRM,
-pulled Nov 2)" is a fact; "activity is down because of motivation" is a guess and is
-left out. Note empty or suspect fields under CRM hygiene, a block-3 topic.
+Do not explain the numbers: "activity is down because of motivation" is a guess and
+is left out. Note empty or suspect fields under CRM hygiene, a block-3 topic.
 
 ### 4. Choosing the two or three deals
 
-Pick two or three deals, never the whole pipeline; a full readout is not an
-inspection. Rank open deals by these reasons, in order:
+Pick two or three deals, never the whole pipeline. Rank open deals by these reasons:
 
-1. **Newest opportunities first.** A deal created since the last 1:1 is checked to
-   confirm it was qualified well, while that is still cheap to fix.
+1. **Newest opportunities first.** Confirm a deal created since the last 1:1 was
+   qualified well, while that is cheap to fix.
 2. **Evidence gaps.** Check the three deal-killers: no critical event, single-threaded
    (no one engaged at director level or above), no quantified impact. A deal that
    fails one carries that gap as its reason.
@@ -180,6 +179,11 @@ Choose the focus in this order:
 3. manager.coaching.priority_skill, when set and no evidence points elsewhere.
 4. This week's rotation topic, when there is nothing else.
 
+Name which wing of behavior change the evidence points to. Awareness: the rep does
+not see the behavior; it needs objective call evidence. Composure: the rep knows the
+practice but loses poise under pressure; it needs practice, such as a role play.
+Following Michelle Vazzana's Crushing Quota, coach the activity, not the result.
+
 Label the focus a hypothesis with its evidence; the manager tests it by asking, not
 telling. Give a call moment's location when one exists. For a full diagnosis, suggest
 the installed task-diagnostic skill.
@@ -206,8 +210,10 @@ rotation topic as secondary.
 
 ### 7. Rep pre-work check
 
-The rep's pre-work is due 48 hours before the meeting: CRM updated, a self-assessment
-on the focus skill, deals where they want support, and their questions. Report each
+The rep's pre-work is due 48 hours before the meeting: CRM updated, a deal report on
+the deals they want to discuss in the team's qualification method
+(manager.methodology_preference; SPICED when unset), a self-assessment on the focus
+skill, deals where they want support, and their questions. Report each
 item as received, not received or unknown. Do not chase the rep.
 
 When pre-work is missing, state the house protocol in one line (an unprepared 1:1 is
@@ -216,7 +222,7 @@ leave the decision to the manager.
 
 ### 8. The follow-up summary draft
 
-Draft the summary the manager sends by the start of the next business day, with
+Draft the summary the manager sends no later than the next day, with
 placeholders for what only the meeting can supply:
 
 - Agreements and action items, each with one owner and a date.
@@ -260,9 +266,9 @@ Return one snapshot per rep in this order:
    picked, what is missing, one question.
 5. **Coaching focus:** one hypothesis at a TASK level, its evidence, and a call moment
    if available.
-6. **Career note:** the rep's recorded goal, or "No goal recorded; ask: [question]".
-7. **Agenda:** the six blocks with minutes and one line each. Flag any of the six
-   objectives the agenda misses.
+6. **Career flag:** only when the quarterly career conversation is due, with one question.
+7. **Agenda:** the five blocks with minutes and one line each. Flag any weekly
+   objective the agenda misses.
 8. **Rep pre-work:** received, not received or unknown per item, and the reschedule
    protocol line when something is missing.
 9. **Follow-up summary draft:** unsent, with blanks for the meeting's agreements.
@@ -302,12 +308,11 @@ runs to plan and dropped when the buyer moves fast. Evidence: Wednesday call, mi
 8, the rep moved to demo after the first pain. Confirm by asking Rep C what happened
 at that moment.
 
-Rep pre-work: CRM updated (received November 8); self-assessment not received. House
-protocol: an unprepared 1:1 is rescheduled within the week, not cancelled. Your call.
+Rep pre-work: CRM updated (November 8); self-assessment not received. House protocol:
+reschedule within the week, never cancel. Your call.
 
-**Edge: nothing connected and no data pasted.** Return the header, the rotation topic,
-the six-block agenda, the pre-work checklist and one combined request for the inputs
-that would fill the rest. Do not invent deals or numbers.
+**Edge: nothing connected.** Return the header, rotation topic, agenda, pre-work
+checklist and one combined request for inputs. Invent no deals or numbers.
 
 ## Related Skills
 
@@ -338,6 +343,6 @@ check it is installed first, and never offer a menu.
 
 Apply Verified, not vibes: every line carries its source, and a gap stays a gap.
 Review last week first, inspect two or three deals, coach one skill as a hypothesis,
-keep the six blocks in order, and reschedule, never cancel.
+keep the five blocks in order, and reschedule, never cancel.
 
 Want this tailored to your team by a human? Dana Consulting runs a short sales diagnostic. Contact us at https://dana-consulting.com/contact.

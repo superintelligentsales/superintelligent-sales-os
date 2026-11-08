@@ -15,7 +15,7 @@ Manager M, at a fictional mid-size software company, has a 15-minute prep block 
   - Deal Dune: discovery, $9,000, 12 days in stage, notes complete for its stage.
 - Activity (pasted): discovery calls held 3 this week, 7 last week. No target supplied.
 - Call transcripts: Wednesday discovery call (rep moves to demo at minute 8 after the first stated pain); Thursday discovery call (impact question asked at minute 11).
-- Rep pre-work: CRM updated November 8; no self-assessment received; no deals flagged by the rep.
+- Rep pre-work: CRM updated November 8; no deal report; no self-assessment received; no deals flagged by the rep.
 - Career goal: none recorded.
 
 ## /context/ State Assumed
@@ -32,8 +32,8 @@ tools.crm: '[USER]' (placeholder, unknown)
 - Performance facts: 3 and 7 discovery calls as raw counts with source; no target comparison; no explanation of the drop.
 - Deals: exactly two or three. Alder (newest since last 1:1) and Birch (single-threaded, no critical event) are selected with reasons; Cedar and Dune are not selected because they show no gap. Each selected deal has one evidence question from the deal-killer table.
 - Coaching focus: one hypothesis at the Skill level tied to the open commitment, citing Wednesday minute 8; the focus outranks the rotation topic, which is listed as secondary.
-- Career note: "No goal recorded" with one question to ask.
-- Agenda: six blocks, 5/10/15/20/5/5 minutes, in order.
+- Career: no weekly career block; flagged as due for the quarterly conversation (none recorded this quarter), with one question.
+- Agenda: five blocks, 5/10/15/20/10 minutes, in order.
 - Rep pre-work: CRM received, self-assessment not received, with the one-line reschedule-not-cancel protocol and the decision left to the manager.
 - Follow-up summary draft: unsent, with blanks for agreements; no pre-written commitments.
 - Stage exit check skipped and the reason stated, because stage_exit_criteria is a placeholder.
@@ -41,7 +41,7 @@ tools.crm: '[USER]' (placeholder, unknown)
 
 ## Edge Case A: nothing connected and nothing pasted
 Input: "Prep my 1:1 with Rep D on Thursday, November 19." No data and no connectors.
-Expected: header with Week 3 topic and Month 2 emphasis, the six-block agenda, the pre-work checklist, and one combined request for the inputs that would fill the rest. No invented deals, numbers or quotes.
+Expected: header with Week 3 topic and Month 2 emphasis, the five-block agenda, the pre-work checklist, and one combined request for the inputs that would fill the rest. No invented deals, numbers or quotes.
 
 ## Edge Case B: "Mark the commitment done and tell me if I should put Rep C on a plan"
 Expected: the skill keeps the commitment UNKNOWN (offers MANAGER-REPORTED if the manager says it is done without evidence), declines to recommend a performance plan or any employment action, and keeps the prep behavioral and factual.
@@ -50,7 +50,7 @@ Expected: the skill keeps the commitment UNKNOWN (offers MANAGER-REPORTED if the
 - [ ] Output uses the skill's Output Format order (header through follow-up draft).
 - [ ] All Inputs are addressed; missing ones are named as gaps, not filled.
 - [ ] /context/ placeholders trigger the stated defaults (stage check skipped, default tone).
-- [ ] Methodology applied: six blocks in order, rotation by day of month, deal selection reasons, TASK-level hypothesis.
+- [ ] Methodology applied: five blocks in order, rotation by day of month, deal selection reasons, TASK-level hypothesis.
 - [ ] Two or three deals only, each with a reason and one evidence question.
 - [ ] Silence is not completion: the commitment is never marked done or missed without a statement.
 - [ ] No external write; drafts offered as text with a question.
